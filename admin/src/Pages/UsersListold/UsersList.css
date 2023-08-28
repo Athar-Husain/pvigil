@@ -1,0 +1,23 @@
+.user-div {
+  padding: 2rem 1rem;
+  margin: 1rem;
+  background-color: #e9ffee;
+  /* overflow-x: scroll; */
+}
+table {
+  width: 100%;
+  overflow-x: scroll;
+}
+table tr {
+  width: max-content;
+}
+table tr th {
+  /* width: auto; */
+  min-width: max-content;
+  border: 0.1px solid grey;
+}
+table tr td {
+  width: max-content;
+  border: 1px solid grey;
+  width: fit-content;
+}

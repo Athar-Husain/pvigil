@@ -1,0 +1,99 @@
+/* App.css */
+
+/* Global styles */
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+} */
+
+.app-container {
+  margin: 20px auto;
+  /* max-width: 1200px; */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* padding: 20px ; */
+}
+
+/* Styles for the main navigation bar */
+.ra-navigation {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.ra-navigation a {
+  color: #fff;
+}
+
+.ra-navigation a:hover {
+  color: #e1e1e1;
+}
+
+/* Styles for the main content area */
+.ra-content {
+  padding: 20px;
+}
+
+/* Styles for the resource icons in the sidebar */
+.ra-resource-icon {
+  color: #3f51b5;
+  font-size: 24px;
+}
+
+/* Styles for the list items in the main content */
+.ra-list-item {
+  padding: 10px;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  align-items: center;
+}
+
+/* Add some spacing between the icon and the resource name */
+.ra-list-item .ra-resource-icon {
+  margin-right: 10px;
+}
+
+/* Styles for the toast notifications */
+.Toastify__toast-container {
+  width: 320px;
+}
+
+.Toastify__toast {
+  font-size: 14px;
+  padding: 10px;
+}
+
+/* .Toastify__toast--success {
+  background-color: #4caf50;
+}
+
+.Toastify__toast--error {
+  background-color: #f44336;
+} */
+
+/* .Toastify__toast-body {
+  color: #fff;
+} */
+
+/* App.css */
+/* Custom styles for the drawer */
+.MuiDrawer-paper {
+  background-color: #3f51b5; /* Set the background color for the drawer */
+  color: #fff; /* Set the text color for the drawer items */
+}
+
+/* Custom styles for the drawer's list items */
+.MuiListItem-root {
+  color: #fff; /* Set the text color for the list items */
+}
+
+/* Custom styles for the active (selected) list items */
+.MuiListItem-root.Mui-selected,
+.MuiListItem-root.Mui-selected:hover {
+  background-color: #7986cb; /* Set the background color for the selected list item */
+}
+
+/* Additional styles for specific components */
+/* Customize as needed */

@@ -1,0 +1,24 @@
+/* dashboard.css */
+
+.dashboard_page {
+  background-image: linear-gradient(135deg, #c0c0c0, #f0f0f0);
+  margin: 0;
+  padding: 0;
+}
+
+/* Define linear gradient colors for buttons */
+.button-users {
+  background-image: linear-gradient(45deg, #f50057, #d500f9);
+}
+
+.button-complaints {
+  background-image: linear-gradient(45deg, #2979ff, #c444ff);
+}
+
+.button-officials {
+  background-image: linear-gradient(45deg, #00bfa5, #7be347);
+}
+
+.button-raids {
+  background-image: linear-gradient(45deg, #651fff, #be38dc);
+}

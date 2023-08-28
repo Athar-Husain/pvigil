@@ -1,0 +1,22 @@
+/* ChangeRole.css */
+
+.change-role-container {
+  margin: 10px;
+}
+
+.change-role-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.role-select {
+  width: 100px;
+}
+
+.confirm-button {
+  padding: 5px 1px;
+}
+
+/* Optional: Add more styles to customize the appearance */
+/* For example, you can add background colors, text colors, etc. */

@@ -1,0 +1,90 @@
+.user-list {
+  color: #333;
+  /* font-size: medium; */
+}
+.user-list .table {
+  padding: 5px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table .search {
+  width: 100%;
+  max-width: 300px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100vw;
+  font-size: 1.4rem;
+  overflow-x: scroll;
+  /* gap: 1rem; */
+}
+
+thead {
+  border-top: 2px solid var(--light-blue);
+  border-bottom: 2px solid var(--light-blue);
+}
+
+th {
+  border: 1px solid #eee;
+}
+
+th,
+td {
+  vertical-align: top;
+  text-align: left;
+  padding: 8px;
+}
+td .icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+th,
+td > * {
+  margin-right: 7px;
+  cursor: pointer;
+  vertical-align: middle;
+  align-self: center;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+  /* margin: 0.5rem 1rem; */
+}
+
+tr:nth-child(even) {
+  background-color: #e4e4e48f;
+}
+tbody tr:hover {
+  cursor: pointer;
+  background-color: rgba(121, 136, 149, 0.3);
+}
+
+.sort label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 5px;
+}
+select {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 4px 8px;
+  margin: 0 5px 0 0;
+  border: none;
+  border-bottom: 2px solid #777;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 1rem;
+  }
+  .sort label {
+    font-size: 1rem;
+  }
+  select {
+    font-size: 1rem;
+  }
+}

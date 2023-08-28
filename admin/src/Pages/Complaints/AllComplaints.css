@@ -1,0 +1,148 @@
+/* Improved styles for the AllComplaints component */
+
+/* Main container styles */
+.complaints-page {
+  /* background-color: #f5f5f5; */
+  background: linear-gradient(65deg, #ffa8a8dc 0%, #ffd8a8 50%, #a8ffcd 100%);
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.complaints-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Blob styles */
+.blob {
+  position: absolute;
+  background-color: #f9b726; /* Blob color */
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 9999;
+}
+.custom-box {
+  /* background-color: #f0f0f0; */
+  color: white;
+}
+
+.custom-heading {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.custom-count {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.blob1 {
+  width: 150px;
+  height: 150px;
+  top: 1%;
+  left: 10%;
+  z-index: -1;
+}
+
+.blob2 {
+  width: 100px;
+  height: 100px;
+  top: 80%;
+  right: 15%;
+  z-index: -1;
+}
+
+.blob3 {
+  width: 120px;
+  height: 120px;
+  bottom: 15%;
+  right: 5%;
+  z-index: -1;
+}
+
+.blob4 {
+  width: 80px;
+  height: 80px;
+  bottom: 5%;
+  left: 8%;
+  z-index: -1;
+}
+
+/* Content container styles */
+.complaints-page-content {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+}
+thead {
+  border-top: 2px solid var(--light-blue);
+  border-bottom: 2px solid var(--light-blue);
+}
+
+/* Colored boxes for statistics */
+.colored-box1 {
+  background-color: #f9b726;
+  color: #ffffff;
+}
+.colored-box2 {
+  background-color: #f95c25;
+  color: #ffffff;
+}
+.colored-box3 {
+  background-color: #25b8f9;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #e4e4e48f;
+}
+
+/* Responsive design for complaint cards */
+@media screen and (max-width: 768px) {
+  .complaint-card {
+    width: 100%;
+  }
+}
+
+/* Complaint card styles */
+.complaint-card {
+  width: 48%;
+  border: 1px solid #f9bfbf;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.complaint-card p {
+  margin: 5px 0;
+  color: #555555;
+}
+
+.complaint-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.complaint-card a:hover {
+  text-decoration: underline;
+}
+
+/* Table header styles */
+.tableHead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #f9f9f9;
+  font-weight: bold;
+}

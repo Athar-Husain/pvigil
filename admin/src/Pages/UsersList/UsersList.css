@@ -1,0 +1,96 @@
+/* Improved styles for the UsersList component */
+
+/* Main container styles */
+.user-list .container {
+  margin: 20px auto;
+  /* max-width: 800px; */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+.user-list .table {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table header styles */
+.user-list .table thead {
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Table row styles */
+.user-list .table tbody tr {
+  background-color: #ffffff;
+
+  border-bottom: 1px solid #ccc;
+}
+
+/* Alternating row colors */
+.user-list .table tbody tr:nth-child(even) {
+  background-color: #c8c8c8ac;
+}
+
+/* Search input styles */
+.user-list .--flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-list input[type="text"] {
+  /* padding: 8px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+
+  background-color: #ffffff;
+}
+
+/* Pagination styles */
+.user-list .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* .user-list .MuiPaginationItem-root.Mui-selected {
+  background-color: #0056b3;
+  color: #ffffff;
+} */
+
+/* Suspended users checkbox styles */
+/* .user-list .MuiCheckbox-root {
+  color: #007bff !important;
+} */
+
+/* Export to CSV button styles */
+.user-list button {
+  cursor: pointer;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+.user-list button:hover {
+  background-color: #004080;
+}
+.table-cell {
+  padding: 5px 10px;
+}
+
+/* Custom styles for the table head (TableHead) */
+.table-head {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
